@@ -19,7 +19,7 @@ public class TrafficTicketTest {
     }
 
     @Test
-    public void shouldReturnNoTicketIfSpeedNotMoreThan() {
+    public void shouldReturnNoTicket() {
         String compensation = trafficTicket.shouldCompensate();
         assertEquals("ไม่เสียค่าปรับ", compensation);
     }
